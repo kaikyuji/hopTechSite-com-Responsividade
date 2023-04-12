@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7ac0278b37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="imgBox">
+                <img src="imgs/hoptechLogo.png" alt="">
+            </div>
+            <div class="menuBox">
+                <span id="menu" onclick="dropdown()" class="fa-solid fa-bars"></span>
+                <ul class="menuList">
+                    <li class="menuTopics"><a href="#home">Home</a></li>
+                    <li class="menuTopics"><a href="#sobre">Sobre</a></li>
+                    <li class="menuTopics"><a href="#hoptech">HopTech</a></li>
+                    <li class="menuTopics"><a href="#contato">Contato</a></li>
+                    <li class="menuButton"><button>Area do Cliente</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="home" class="sections lightSection">
+        <main>
+            <div class="firstContainer">
+                <h1>Your hope is our hop!</h1>
+                <p>Acreditamos em iluminar o caminho da produtividade no cultivo de lúpulo com sensores de luz precisos
+                    e em tempo real, enquanto fornecemos soluções tecnológicas de qualidade com transparência, inovação
+                    e excelência no atendimento ao cliente.</p>
+                <div class="buttonBox">
+                    <button>Faça uma simulação</button>
+                </div>
+            </div>
+            <div class="secondContainer">
+                <img id="hopTechLogo" src="imgs/hoptechWhite.png" alt="">
+            </div>
+        </main>
+        <img src="imgs/waveDark.svg" alt="">
+    </div>
+    <div id="sobre" class="sections reverse darkSection">
+        <main>
+            <div class="firstContainer">
+                <h1>Sobre nós</h1>
+                <p>A HopTech é um projeto criado pela empresa <em>NextPoint</em> com a ideia de integrar tecnologia ao
+                    plantio de lúpulo, proporcionando um auxílio ao produtor por meio de sistemas de monitoramento,
+                    utilizando sensores e dashboards para coleta e análise de dados.</p>
+            </div>
+            <div class="secondContainer">
+                <img src="imgs/dashboard.gif" alt="">
+            </div>
+        </main>
+        <img src="imgs/waveLight.svg" alt="">
+    </div>
+    <div id="hoptech" class="sections lightSection">
+        <main>
+            <div class="firstContainer">
+                <h1>Como funciona?</h1>
+                <p>Com sua permissão, implantaremos sensores de luminosidade em sua plantação de lúpulo, que serão
+                    enviados e guardados em um banco de dados, também visíveis em sistemas de dashboard que
+                    proporcionamos aos nossos clientes. Além disso, juntamente com os dados do dashboard, possuimos um
+                    sistema que ao detectar condições inadequadas na plantação, é acionado um alarme avisando o ocorrido
+                    para que consiga haver uma monitoração melhor.</p>
+            </div>
+            <div class="secondContainer">
+                <img src="imgs/hoptechWhite.png" alt="">
+            </div>
+        </main>
+        <img src="imgs/waveDark.svg" alt="">
+    </div>
+    <footer id="contato" class="sections darkSection">
+        <main>
+            <div class="firstContainer">
+                <div class="titleBox">
+                    <h1>Contato</h1>
+                    <h3>Entre em contato conosco</h3>
+                </div>
+                <form class="inputBox">
+                    <div class="inputs">
+                        <label for="nomeResponsavel">Nome do responsável</label>
+                        <input id="nomeResponsavel">
+                    </div>
+                    <div class="inputs">
+                        <label for="nomeEmpresa">Nome da empresa</label>
+                        <input id="nomeEmpresa">
+                    </div>
+                    <div class="inputs">
+                        <label for="empresaTelefone">Telefone</label>
+                        <input id="empresaTelefone">
+                    </div>
+                    <div class="inputs">
+                        <label for="empresaEmail">E-mail</label>
+                        <input id="empresaEmail">
+                    </div>
+                </form>
+                <div class="buttonBox">
+                    <button id="contactButton">Contate-nos!</button>
+                </div>
+            </div>
+            <div class="secondContainer">
+                <div class="topics">
+                    <h1>Endereço</h1>
+                    <p><span class="fa-solid fa-location-dot"></span><span>Rua Haddock Lobo, 595, São Paulo - SP</span></p>
+                </div>
+                <div class="topics">
+                    <h1>Contato</h1>
+                    <p><span class="fa-solid fa-phone fa-lg"></span><span>(11) 4123-4567</span></p>
+                    <p><span class="fa-solid fa-comment fa-lg"></span><span>atendimentohoptech@gmail.com</span></p>
+                </div>
+                <div class="topics">
+                    <h1>Redes sociais</h1>
+                    <div class="socialMedia">
+                        <p><a href=""><span class="fa-brands fa-facebook fa-2xl"></span></a></p>
+                        <p><a href=""><span class="fa-brands fa-instagram fa-2xl"></span></a></p>
+                        <p><a href=""><span class="fa-brands fa-linkedin fa-2xl"></span></a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </footer>
+</body>
+</html>
+<script src="hamburguer.js"></script>
